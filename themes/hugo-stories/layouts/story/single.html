@@ -19,49 +19,25 @@
 {{ end }}
 
 {{ define "sidebar" }}
-    {{ $person := index .Site.Data.people .Params.person }}
-
     <div class="sidebar">
         <div class="col-md-4">
             <div class="page-header">
                 <h4>Social Profiles</h4>
             </div>
-            {{ with $person.twitter }}
+            {{ with .Params.twitter }}
                 <p><i class="fa fa-twitter fa-fw fa-lg" aria-hidden="true"></i> {{ . }}</p>
             {{ end }}
 
-            {{ with $person.facebook }}
+            {{ with .Params.facebook }}
                 <p><i class="fa fa-facebook fa-fw fa-lg" aria-hidden="true"></i> {{ . }}</p>
             {{ end }}
 
-            {{ with $person.instagram }}
+            {{ with .Params.instagram }}
                 <p><i class="fa fa-instagram fa-fw fa-lg" aria-hidden="true"></i> {{ . }}</p>
             {{ end }}
 
-            {{ with $person.website }}
+            {{ with .Params.linkedin }}
                 <p><i class="fa fa-link fa-fw fa-lg" aria-hidden="true"></i> {{ . }}</p>
-            {{ end }}
-
-            <div class="page-header">
-                <h4>Companies</h4>
-            </div>
-            <ul class="list-unstyled">
-                {{ range $person.companies }}
-                    <li>{{ .name }} ({{ .title }})</li>
-                    <p>{{ .start }} - {{ .end }}</p>
-                {{ end }}
-            </ul>
-            {{ if $person.awards }}
-                <div class="page-header">
-                    <h4>Awards</h4>
-                </div>
-                <ul class="list-unstyled">
-                    {{ range $person.awards }}
-                        <li>{{ .year }} - {{ .org }}</li>
-                        <li>Category: {{ .category }}</li>
-                        <li>{{ if eq .isWinner true }}Won{{ else }}Nominated{{ end }}</li>
-                    {{ end }}
-                </ul>
             {{ end }}
         </div> <!-- /.col-md-4 -->
     </div> <!-- /.sidebar -->
