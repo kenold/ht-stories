@@ -3,7 +3,7 @@
 {{ end }}
 {{ define "main" }}
     <div class="row">
-        {{ range (where .Data.Pages "Section" "stories") }}
+        {{ range (where .Data.Pages "Section" "story") }}
             {{ partial "components/story-list-item.html" . }}
         {{ end }}
     </div>
