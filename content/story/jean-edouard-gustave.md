@@ -1,20 +1,24 @@
 ---
 date: 2017-02-27
-format: "Long-Form"
-person: "Jean Edouard Gustave"
+person: "Kenold Beauplan"
 photo: "jegustave.jpg"
 sex: "M"
-major: "Graphic Design"
 story_language: "English"
-years_in_us: 12
-schools: "FIU North"
-facebook: "jeangustave"
-instagram: "jeangustave"
-twitter: "jeangustave"
-linkedin: "jeangustave"
-featured: "Yes"
-tags: []
-weight: 1  
+years_in_us:
+location: ""
+schools: ["FIU", "Broward College", "Barry University"]
+majors: ["Graphic Design"]
+clubs: [""]
+facebook: ""
+instagram: ""
+twitter: ""
+linkedin: ""
+featured: "No"
+employers: ""
+work_status: ""
+tags: [""]
+format: ""
+weight:  
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem blanditiis, suscipit accusamus, voluptates repellat quibusdam labore? Voluptatem debitis.
 <!--more-->
