@@ -4,4 +4,4 @@ baseurl = "/"
 theme = "hugo-stories"
 
 [permalinks]
-story = "/stories/:filename/"
+stories = "/story/:filename/"
