@@ -5,5 +5,7 @@
         </figure>
         <h4>{{ .Params.person }}</h4>
     </a>
-    <p>{{ .Params.major }} / {{ .Params.schools }}</p>
+    <p>{{ range .Params.majors }} {{ . }} {{ end }}</p>
+    
+  {{ range $index, $school := .Params.schools }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "schools/" | relURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}</p>
 </div>
