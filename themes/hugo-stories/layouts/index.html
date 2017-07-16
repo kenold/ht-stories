@@ -1,0 +1,10 @@
+{{ define "title" }}
+    Welcome
+{{ end }}
+{{ define "main" }}
+    <div class="row">
+        {{ range (where .Data.Pages "Section" "stories") }}
+            {{ partial "components/story-list-item.html" . }}
+        {{ end }}
+    </div>
+{{ end }}
