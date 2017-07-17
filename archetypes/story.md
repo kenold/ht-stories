@@ -12,6 +12,7 @@ schools:
     state: ""
     years: ""
     major: ""
+    degree:
     club: ""
 facebook: ""
 instagram: ""

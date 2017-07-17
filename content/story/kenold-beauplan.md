@@ -1,7 +1,7 @@
 ---
 date: 2017-02-27
 person: "Kenold Beauplan"
-photo:
+photo: "kenold-beauplan.jpg"
 sex:
 story_language: "English"
 place_origin:
@@ -12,6 +12,7 @@ schools:
     state:
     years: "2004-2008"
     major: "Multimedia Design"
+    degree:
     club:
 facebook:
 instagram:

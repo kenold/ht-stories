@@ -12,6 +12,7 @@ schools:
     state: "FL"
     years: "2014-2017"
     major: "Database Administrator"
+    degree: MBA
     club: ""
 facebook: ""
 instagram: ""

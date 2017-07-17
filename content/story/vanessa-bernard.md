@@ -1,7 +1,7 @@
 ---
 date: 2017-02-27
 person: "Vanessa Bernard"
-photo: ""
+photo: "vanessa-bernard.jpg"
 sex: ""
 story_language: "English"
 place_origin: ""
@@ -12,6 +12,7 @@ schools:
     state: "FL"
     years: "2017-"
     major: "Social Work"
+    degree:
     club: ""
 facebook: ""
 instagram: ""
