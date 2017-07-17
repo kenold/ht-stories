@@ -2,7 +2,17 @@
     Welcome
 {{ end }}
 {{ define "main" }}
+    <div class="row featured">
+        <h1>Featured</h1>
+        {{ range (where .Data.Pages "Section" "story") }}
+            {{ if eq .Params.featured true }}
+                {{ partial "components/story-featured-item.html" . }}
+            {{ end }}
+        {{ end }}
+    </div>
+
     <div class="row">
+        <h1>Recent</h1>
         {{ range (where .Data.Pages "Section" "story") }}
             {{ partial "components/story-list-item.html" . }}
         {{ end }}
