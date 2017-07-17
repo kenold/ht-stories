@@ -21,7 +21,7 @@
 
 {{ define "sidebar" }}
     <div class="sidebar">
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div class="page-header">
                 <h4>Social Profiles</h4>
             </div>
@@ -46,7 +46,7 @@
 
 {{ define "main" }}
     <div class="content">
-        <div class="col-md-8">
+        <div class="col-md-9">
             <p>{{ .Summary }}</p>
             {{ $body := replace .Content .Summary "" }}
             <p>{{ $body | safeHTML }}</p>
