@@ -14,9 +14,9 @@ schools:
     major: "Multimedia Design"
     degree:
     club:
-facebook:
-instagram:
-twitter:
+facebook: "kenoldbeauplan"
+instagram: "kenold"
+twitter: "kenoldb"
 linkedin:
 tags:
   -
