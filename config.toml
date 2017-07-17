@@ -2,6 +2,7 @@ languageCode = "en-us"
 title = "Student Stories"
 baseurl = "/"
 theme = "hugo-stories"
+metaDataFormat = "yaml"
 
 [permalinks]
 stories = "/story/:filename/"
