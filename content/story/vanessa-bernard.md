@@ -17,13 +17,13 @@ facebook: ""
 instagram: ""
 twitter: ""
 linkedin: ""
-featured: No
 tags:
   - ""
 format: ""
 employers:
   - ""
 work_status: ""
-weight:  
+featured: true
+weight: 2
 ---
 Enter interview text here.
