@@ -1,0 +1,14 @@
+<div class="col-md-6">
+    <a href="{{ .Permalink }}">
+        <figure>
+            <!-- <img src="/images/people/{{ .Params.photo }}" class="img-responsive" alt="{{ .Params.person }} Story"> -->
+            <img src="holder.js/100px350?random=yes">
+        </figure>
+        <h4>{{ .Params.person }}</h4>
+    </a>
+
+    {{ range .Params.schools }}
+        <p>{{ .major }}</p>
+        <p>{{ .school }} ({{ .years }})</p>
+    {{ end }}
+</div>
