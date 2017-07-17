@@ -6,7 +6,9 @@
         </figure>
         <h4>{{ .Params.person }}</h4>
     </a>
-    <p>{{ range .Params.majors }} {{ . }} {{ end }}</p>
 
-  {{ range $index, $school := .Params.schools }}{{ if gt $index 0 }}, {{ end }}<a href="{{ "schools/" | relURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}</p>
+    {{ range .Params.schools }}
+        <p>{{ .major }}</p>
+        <p>{{ .school }} ({{ .years }})</p>
+    {{ end }}
 </div>
