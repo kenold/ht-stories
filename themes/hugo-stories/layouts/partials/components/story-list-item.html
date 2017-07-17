@@ -1,13 +1,18 @@
 <div class="col-md-4">
     <a href="{{ .Permalink }}">
-        <figure>
-            <!-- <img src="/images/people/{{ .Params.photo }}" class="img-responsive" alt="{{ .Params.person }} Story"> -->
-            <img src="holder.js/100px200?random=yes">
-        </figure>
-        <h4>{{ .Params.person }}</h4>
+        <div class="thumbnail">
+            <figure>
+                <!-- <img src="/images/people/{{ .Params.photo }}" class="img-responsive" alt="{{ .Params.person }} Story"> -->
+                <img src="holder.js/100px200">
+            </figure>
+        </div>
     </a>
 
-    {{ range .Params.schools }}
-        <p>{{ .major }} ({{ .school }})</p>
-    {{ end }}
+    <div class="caption">
+        <h4>{{ .Params.person }}</h4>
+
+        {{ range .Params.schools }}
+            <p>{{ .major }} ({{ .school }})</p>
+        {{ end }}
+    </div>
 </div>
