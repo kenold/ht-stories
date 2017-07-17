@@ -11,8 +11,6 @@ body {
 
 }
 
-
-
 body>.container {
     padding: 60px 15px 0;
 }
@@ -55,11 +53,11 @@ figure.overlay figcaption {
     width: 100%;
     top: 0;
     /**optional background overlay**/
-    background: rgba(255,255,255,0.2);
+    /*background: rgba(255,255,255,0.2);*/
     /**text, adjust all values as desired**/
     padding: 57% 2% 0 5%;
     font-weight: normal;
-    color: #000;
+    color: #FFF;
     /**some fallback value**/
     font-size: 16px;
     /**responsive size is roughly 3.4%  of the device's viewport width**/
