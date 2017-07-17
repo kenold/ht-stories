@@ -1,17 +1,17 @@
 ---
 date: 2017-02-27
-person: Kenold Beauplan
+person: "Kenold Beauplan"
 photo:
 sex:
-story_language: English
+story_language: "English"
 place_origin:
 years_in_country:
 location:
 schools:
-  - school: Broward College
+  - school: "Broward College"
     state:
-    years: 2004-2008
-    major: Multimedia Design
+    years: "2004-2008"
+    major: "Multimedia Design"
     club:
 facebook:
 instagram:
@@ -25,9 +25,7 @@ employers:
 work_status:
 weight:  
 ---
-
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem blanditiis, suscipit accusamus, voluptates repellat quibusdam labore? Voluptatem debitis.
-<!--more-->
 
 ### Vero nemo sit officia sapiente corporis totam voluptatum reprehenderit?
 
