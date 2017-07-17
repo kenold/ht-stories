@@ -1,25 +1,31 @@
 ---
 date: 2017-02-27
-person: "Kenold Beauplan"
-photo: "jegustave.jpg"
-sex: "M"
-story_language: "English"
-years_in_us:
-location: ""
-schools: ["FIU", "Broward College", "Barry University"]
-majors: ["Graphic Design"]
-clubs: [""]
-facebook: ""
-instagram: ""
-twitter: ""
-linkedin: ""
-featured: "No"
-employers: ""
-work_status: ""
-tags: [""]
-format: ""
+person: Kenold Beauplan
+photo:
+sex:
+story_language: English
+place_origin:
+years_in_country:
+location:
+schools:
+  - school: Broward College
+    state:
+    years: 2004-2008
+    major: Multimedia Design
+    club:
+facebook:
+instagram:
+twitter:
+linkedin:
+featured: No
+tags:
+  -
+format:
+employers:
+work_status:
 weight:  
 ---
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem blanditiis, suscipit accusamus, voluptates repellat quibusdam labore? Voluptatem debitis.
 <!--more-->
 
