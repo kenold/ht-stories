@@ -1,18 +1,18 @@
 <div class="col-md-6">
 
+    <a href="{{ .Permalink }}">
+        <figure class="overlay">
+            <img src="/images/people/{{ .Params.photo }}" class="img-responsive" alt="{{ .Params.person }} Story">
 
-            <figure class="overlay">
-                <img src="/images/people/{{ .Params.photo }}" class="img-responsive" alt="{{ .Params.person }} Story">
+            <figcaption>
+                <h4>{{ .Params.person }}</h4>
 
-                <figcaption>
-                    <h4>{{ .Params.person }}</h4>
-
-                    {{ range .Params.schools }}
-                        <p>{{ .major }} ({{ .school }})</p>
-                    {{ end }}
-                </figcaption>
-            </figure>
-
+                {{ range .Params.schools }}
+                    <p>{{ .major }} ({{ .school }})</p>
+                {{ end }}
+            </figcaption>
+        </figure>
+    </a>
 
 
 
